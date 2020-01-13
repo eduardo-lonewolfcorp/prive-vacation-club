@@ -1,0 +1,51 @@
+.header {
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+}
+
+.link-logo {
+    background-color: white;
+    margin: 0 30px;
+}
+
+.left {
+    float: left!important;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+.right {
+    float: right!important;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: 70%;
+}
+
+.list {
+    display: inline-flex;
+}
+
+.logo {
+    height: 100%;
+}
+
+.wd-hg-inherit {
+    width: inherit;
+    height: inherit;
+}
+
+span {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
